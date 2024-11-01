@@ -1,0 +1,189 @@
+
+  .Middle-section {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 4rem;
+
+  }
+  
+  .Middle-content {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .Middle-heading {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+  
+  .Middle-description {
+    font-size: 15px;
+    color: rgb(199, 199, 199);
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  .Middle-button {
+    padding: 0.75rem 1.5rem;
+    background-color: rgb(163, 163, 163);
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .pointer-icon{
+    font-size: 20px;
+    
+  }
+  
+  .Middle-button:hover {
+    background-color: #E6C767;
+  }
+  
+  .Middle-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .Middle-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 4rem;
+    margin-left: 10rem;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .Middle-image:hover {
+    transform: scale(1.05);
+  }
+
+
+
+
+  
+
+  .Middle-cards {
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    margin-top: 2rem;
+    padding: 3rem 5rem 3rem 5rem;
+    background-color: #202020;
+  }
+  .Middle-crd{
+    margin-top: 15rem;
+  }
+  .middle-card-heading{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lora', sans-serif;
+  }
+  
+  .Middle-card {
+    background-color: #fff5da;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 20%; /* Adjust width as needed */
+  }
+  
+  .Middle-card-icon {
+    font-size: 40px;
+    color: #007bff; /* Customize icon color */
+    margin-bottom: 10px;
+  }
+  
+  .Middle-card-title {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+.share-audio-middle{
+  text-align: center;
+  margin-top: 15rem;
+}
+.share-audio-heading{
+  color: white;
+  font-size: 30px;
+}
+.share-audio-images{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  background-color: #202020;
+  
+}
+.share-audio-image{
+  display: flex;
+  height: 10rem;
+  width: 10rem;
+  
+}
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .Middle-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .Middle-content,
+    .Middle-image-container {
+      padding: 0.5rem;
+    }
+  
+    .Middle-heading {
+      font-size: 2rem;
+    }
+  
+    .Middle-description {
+      font-size: 1rem;
+    }
+  
+    .Middle-button {
+      font-size: 0.9rem;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+

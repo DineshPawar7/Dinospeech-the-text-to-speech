@@ -1,0 +1,40 @@
+.footer {
+    background-color: #fff5da;
+    padding: 20px;
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.footer-nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .footer-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-nav a {
+        margin: 5px 0;
+    }
+}
